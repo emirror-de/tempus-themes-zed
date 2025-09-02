@@ -121,7 +121,7 @@
                     }
                 ],
                 "syntax": {
-                    "attribute": { "color": "#a234c0" },
+                    "attribute": { "color": "#00756a" },
                     "boolean": { "color": "#007072" },
                     "comment": { "color": "#796271", "font_style": "italic" },
                     "comment.doc": { "color": "#796271", "font_style": "italic" },
@@ -158,8 +158,8 @@
                     "title": { "color": "#007072", "font_weight": 700 },
                     "type": { "color": "#007072" },
                     "variable": { "color": "#4d595f" },
-                    "variable.special": { "color": "#a234c0" },
-                    "variant": { "color": "#007072" }
+                    "variable.special": { "color": "#b93f1a" },
+                    "variant": { "color": "#357200" }
                 },
                 "terminal.background": "#fff5f3",
                 "terminal.foreground": "#4d595f",
@@ -305,12 +305,12 @@
                     "boolean": { "color": "#8e9aba" },
                     "comment": { "color": "#a29899", "font_style": "italic" },
                     "comment.doc": { "color": "#a29899", "font_style": "italic" },
-                    "constant": { "color": "#d39d74" },
+                    "constant": { "color": "#8c9abe" },
                     "constructor": { "color": "#b190af" },
                     "embedded": { "color": "#a29899" },
                     "emphasis": { "font_style": "italic" },
                     "emphasis.strong": { "font_weight": 700 },
-                    "enum": { "color": "#bda75a" },
+                    "enum": { "color": "#8e9aba" },
                     "function": { "color": "#b190af" },
                     "hint": { "color": "#a29899", "font_weight": 700 },
                     "keyword": { "color": "#c69ac6" },
@@ -339,7 +339,7 @@
                     "type": { "color": "#8e9aba" },
                     "variable": { "color": "#a2a8ba" },
                     "variable.special": { "color": "#cb8d56" },
-                    "variant": { "color": "#8e9aba" }
+                    "variant": { "color": "#8ba089" }
                 },
                 "terminal.background": "#1f252d",
                 "terminal.foreground": "#a2a8ba",
