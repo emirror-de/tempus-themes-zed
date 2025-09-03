@@ -142,7 +142,7 @@ Contributions welcome when they:
 4. Consider both light and dark simultaneously
 
 Workflow suggestion:
-- Adjust palette in `themes/tempus-themes.json`
+- Adjust palette in `themes/tempus.json`
 - Test with varied filetypes (Rust, TS, Markdown, diff views)
 - Validate contrast (WCAG AA for text vs. background where feasible)
 - Open a PR with before/after screenshots
