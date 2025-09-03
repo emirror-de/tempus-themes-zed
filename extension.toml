@@ -1,10 +1,10 @@
 id = "tempus-themes"
-name = "Tempus Fugit & Dusk (Adapted)"
-description = "Adapted Tempus Fugit (light) and Tempus Dusk (dark) themes from Protesilaos Stavrou's Tempus Vim collection, refined for Zed."
-version = "1.1.0"
+name = "Tempus Themes"
+description = "Adapted Tempus  themes from Protesilaos Stavrou's Tempus Vim collection, refined for Zed."
+version = "1.0.0"
 schema_version = 1
 authors = [
     "Protesilaos Stavrou (original)",
     "Lewin Probst (adaptation)<info@emirror.de>",
 ]
-repository = "https://github.com/emirror-de/clearsight-zed"
+repository = "https://github.com/emirror-de/tempus-themes-zed"

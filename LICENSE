@@ -1,18 +1,32 @@
-Tempus Fugit & Dusk (Adapted for Zed) - Combined License
+Tempus Themes (16 Variants) for Zed - Combined License
 =======================================================
 
-This project contains adaptations of the Tempus Fugit (light) and Tempus Dusk (dark) themes from the Tempus Themes collection.
+This project contains Zed editor adaptations of all 16 Tempus Themes variants: Tempus Fugit, Tempus Dusk, Tempus Autumn, Tempus Classic, Tempus Dawn, Tempus Day, Tempus Future, Tempus Night, Tempus Past, Tempus Rift, Tempus Spring, Tempus Summer, Tempus Tempest, Tempus Totus, Tempus Warp, and Tempus Winter.
 
 Attribution
 -----------
 Original Vim color schemes:
-  Tempus Themes (including Tempus Fugit, Tempus Dusk)
+  Tempus Themes (all variants: Fugit, Dusk, Autumn, Classic, Dawn, Day, Future, Night, Past, Rift, Spring, Summer, Tempest, Totus, Warp, Winter)
   Copyright (C) Protesilaos Stavrou
   https://protesilaos.com
   Released under the GNU General Public License v3.0 or (at your option) any later version.
 
 Adaptation to Zed theme format and packaging:
   Copyright (C) 2025 Lewin Probst
+
+Adaptation scope clarification:
+  The Zed version comprises:
+    - Direct palette transcription from the upstream Vim color schemes (all 16 variants)
+    - Systematic mapping to Zed UI + syntax + diagnostics + VCS + terminal namespaces
+    - Minor structural normalization (consistent key sets, semantic grouping)
+    - No re-licensing; upstream GPL continuity is preserved
+  No proprietary assets or alternative licensing terms are introduced. Color value selection remains entirely derived from (and constrained by) the upstream Tempus Themes project; only format and semantic binding layers were authored for Zed.
+
+SPDX clarification:
+  The SPDX identifier "GPL-3.0-or-later" applies to the combined derivative work (this repository), inheriting the upstream licensing. All distributed JSON, documentation, and structural transformation logic are provided under the same terms. Consumers and redistributors must retain:
+    - Attribution to Protesilaos Stavrou (original palettes/design)
+    - Attribution to Lewin Probst (Zed adaptation)
+    - The GPL-3.0-or-later notice and this clarification block.
 
 License Selection
 -----------------

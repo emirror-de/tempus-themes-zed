@@ -1,6 +1,6 @@
-# Tempus Fugit & Dusk (Adapted for Zed)
+# Tempus Themes (16 Variants) Adapted for Zed
 
-Adaptations of the **Tempus Fugit** (light) and **Tempus Dusk** (dark) themes from [Protesilaos Stavrou's Tempus Themes collection](https://protesilaos.com), packaged for the **Zed** editor.
+Adaptations of all sixteen **Tempus Themes** variants by [Protesilaos Stavrou](https://protesilaos.com) (original Vim color schemes), packaged for the **Zed** editor: **Fugit, Dusk, Autumn, Classic, Dawn, Day, Future, Night, Past, Rift, Spring, Summer, Tempest, Totus, Warp, Winter**.
 
 These themes aim to preserve the original *balance, contrast discipline, semantic consistency,* and *reading comfort* of the Tempus series while translating them into Zed’s theming surface (UI + syntax + diagnostics + VCS + terminal colors).
 
@@ -20,8 +20,8 @@ These themes aim to preserve the original *balance, contrast discipline, semanti
 
 ## 🎨 Theme Names in Zed
 
-- Light: `Tempus Fugit`
-- Dark: `Tempus Dusk`
+Supported variants (light and dark mixed as in upstream collection):
+`Tempus Fugit`, `Tempus Dusk`, `Tempus Autumn`, `Tempus Classic`, `Tempus Dawn`, `Tempus Day`, `Tempus Future`, `Tempus Night`, `Tempus Past`, `Tempus Rift`, `Tempus Spring`, `Tempus Summer`, `Tempus Tempest`, `Tempus Totus`, `Tempus Warp`, `Tempus Winter`
 
 ---
 
@@ -35,45 +35,6 @@ These themes aim to preserve the original *balance, contrast discipline, semanti
 | Disciplined contrast | UI surfaces use restrained deltas so syntax stands out |
 | Symbol role clarity | Keywords, types, functions, and constants form distinct clusters |
 | Accessibility mindset | Color choices avoid ambiguous low-contrast pairings |
-
----
-
-## 🔍 Syntax Mapping Overview
-
-| Category          | Tempus Fugit (Light) | Tempus Dusk (Dark) |
-|-------------------|----------------------|--------------------|
-| Background        | `#fff5f3`            | `#1f252d`          |
-| Foreground/Base   | `#4d595f`            | `#a2a8ba`          |
-| Comments          | `#796271` (italic)   | `#a29899` (italic) |
-| Keywords          | `#a234c0`            | `#c69ac6`          |
-| Functions / Tags  | `#a83884`            | `#b190af`          |
-| Types / Enums     | `#007072`            | `#8e9aba`          |
-| Constants/Nums    | `#1666b0`            | `#8c9abe`          |
-| Strings           | `#485adf`            | `#9ca5de`          |
-| Special / Symbol  | `#985900`            | `#bda75a`          |
-| Preprocessor      | `#b93f1a`            | `#d39d74`          |
-| Diff Added        | `#357200`            | `#8ba089`          |
-| Diff Removed      | `#c61a14`            | `#cb8d56`          |
-
-The palettes were mapped to Zed’s semantic keys (e.g. `syntax.keyword`, `syntax.type`, `syntax.string`, VCS badges, diagnostics, terminal ANSI set). Only minimal adjustments were made to maintain legibility in Zed’s UI context.
-
----
-
-## 🖥 Terminal ANSI Alignment
-
-Both variants provide a cohesive terminal experience (helpful if you embed a terminal in Zed):
-
-| Slot     | Fugit (Light) | Dusk (Dark) |
-|----------|---------------|-------------|
-| Black    | `#4d595f`     | `#1f252d`   |
-| Red      | `#c61a14`     | `#cb8d56`   |
-| Green    | `#357200`     | `#8ba089`   |
-| Yellow   | `#825e00`     | `#a79c46`   |
-| Blue     | `#1666b0`     | `#8c9abe`   |
-| Magenta  | `#a83884`     | `#b190af`   |
-| Cyan     | `#007072`     | `#8e9aba`   |
-| White    | `#efe6e4`     | `#a29899`   |
-| Bright counterparts follow upstream hue intent |
 
 ---
 
@@ -172,32 +133,3 @@ If you redistribute modified versions:
 - Tempus Themes: https://protesilaos.com
 - WCAG Contrast Guidelines: https://www.w3.org/WAI/WCAG21/quickref/
 - Zed Editor: https://zed.dev
-
----
-
-## ❓ FAQ
-
-**Why GPL instead of MIT now?**
-Because the themes derive from GPL-licensed upstream work; relicensing under a more permissive license would not be compliant.
-
-**Can I extract just the colors?**
-Color *values* individually are not copyrightable in most jurisdictions, but the curated arrangement + mapping constitutes expressive selection. Respect upstream licensing if redistributing as a derivative theme.
-
-**Will more Tempus variants be added?**
-Potentially. Contributions that add other Tempus schemes (e.g. Tempus Night, Tempus Day) while maintaining parity are welcome.
-
----
-
-## ✅ Status
-
-Current focus:
-- Validation of palette in various languages
-- Gathering feedback on Zed-specific affordances (minimap, inline hints, SCM gutter)
-- Optional future: dynamic variant generator script
-
----
-
-**Enjoy a calm, disciplined, accessible coding atmosphere.**
-Refined aesthetics without sacrificing legibility.
-
-*Tempus fugit — time flies. Code comfortably while it does.*
