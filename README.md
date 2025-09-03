@@ -23,8 +23,6 @@ These themes aim to preserve the original *balance, contrast discipline, semanti
 - Light: `Tempus Fugit`
 - Dark: `Tempus Dusk`
 
-These reside in a single theme JSON (`themes/clearsight.json`, now repurposed—ID unchanged for compatibility). If you prefer, you can later rename the extension ID (see “Migration Notes” below).
-
 ---
 
 ## 🧩 Design Principles (Inherited from Tempus Themes)
@@ -84,7 +82,7 @@ Both variants provide a cohesive terminal experience (helpful if you embed a ter
 ### Development Install (Local)
 
 1. Clone the repository:
-   git clone https://github.com/emirror-de/clearsight-zed.git
+   git clone https://github.com/emirror-de/tempus-themes-zed.git
 2. Open Zed.
 3. Command Palette → “Extensions: Install Dev Extension”.
 4. Select the cloned directory.
@@ -135,30 +133,6 @@ Try to avoid:
 
 ---
 
-## 📦 Extension Metadata
-
-Current extension id remains: `clearsight`  
-(Kept to avoid breaking prior local references. If publishing under a new identity, consider renaming to `tempus-adapted`.)
-
----
-
-## 🔄 Migration Notes (from previous “ClearSight”)
-
-If you previously had settings like:
-```json
-{ "theme": "ClearSight Light" }
-```
-Update them to:
-```json
-{ "theme": "Tempus Fugit" }
-```
-And:
-```json
-{ "theme": "Tempus Dusk" }
-```
-
----
-
 ## 🤝 Contributing
 
 Contributions welcome when they:
@@ -168,7 +142,7 @@ Contributions welcome when they:
 4. Consider both light and dark simultaneously
 
 Workflow suggestion:
-- Adjust palette in `themes/clearsight.json`
+- Adjust palette in `themes/tempus-themes.json`
 - Test with varied filetypes (Rust, TS, Markdown, diff views)
 - Validate contrast (WCAG AA for text vs. background where feasible)
 - Open a PR with before/after screenshots
@@ -177,11 +151,11 @@ Workflow suggestion:
 
 ## 📜 License & Attribution
 
-- Original palette & design logic: **Tempus Themes** by Protesilaos Stavrou  
-  Source: https://github.com/protesilaos/tempus-themes  
+- Original palette & design logic: **Tempus Themes** by Protesilaos Stavrou
+  Source: https://github.com/protesilaos/tempus-themes
   License: **GPL-3.0-or-later**
-- Zed adaptation (theme JSON, structural mapping): © 2025 Lewin Probst  
-- This repository (combined work) is distributed under: **GPL-3.0-or-later**  
+- Zed adaptation (theme JSON, structural mapping): © 2025 Lewin Probst
+- This repository (combined work) is distributed under: **GPL-3.0-or-later**
   See [LICENSE](LICENSE)
 
 SPDX: `GPL-3.0-or-later`
@@ -203,13 +177,13 @@ If you redistribute modified versions:
 
 ## ❓ FAQ
 
-**Why GPL instead of MIT now?**  
+**Why GPL instead of MIT now?**
 Because the themes derive from GPL-licensed upstream work; relicensing under a more permissive license would not be compliant.
 
-**Can I extract just the colors?**  
+**Can I extract just the colors?**
 Color *values* individually are not copyrightable in most jurisdictions, but the curated arrangement + mapping constitutes expressive selection. Respect upstream licensing if redistributing as a derivative theme.
 
-**Will more Tempus variants be added?**  
+**Will more Tempus variants be added?**
 Potentially. Contributions that add other Tempus schemes (e.g. Tempus Night, Tempus Day) while maintaining parity are welcome.
 
 ---
@@ -223,7 +197,7 @@ Current focus:
 
 ---
 
-**Enjoy a calm, disciplined, accessible coding atmosphere.**  
+**Enjoy a calm, disciplined, accessible coding atmosphere.**
 Refined aesthetics without sacrificing legibility.
 
 *Tempus fugit — time flies. Code comfortably while it does.*
