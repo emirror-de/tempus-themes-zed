@@ -1,6 +1,6 @@
-# Tempus Themes (16 Variants) Adapted for Zed
+# Tempus Themes (10 Variants) Adapted for Zed
 
-Adaptations of all sixteen **Tempus Themes** variants by [Protesilaos Stavrou](https://protesilaos.com) (original Vim color schemes), packaged for the **Zed** editor: **Fugit, Dusk, Autumn, Classic, Dawn, Day, Future, Night, Past, Rift, Spring, Summer, Tempest, Totus, Warp, Winter**.
+Adaptations of ten **Tempus Themes** variants by [Protesilaos Stavrou](https://protesilaos.com) (original Vim color schemes), packaged for the **Zed** editor: **Fugit, Dusk, Autumn, Classic, Dawn, Day, Future, Night, Past, Rift**.
 
 These themes aim to preserve the original *balance, contrast discipline, semantic consistency,* and *reading comfort* of the Tempus series while translating them into Zed’s theming surface (UI + syntax + diagnostics + VCS + terminal colors).
 
@@ -20,8 +20,8 @@ These themes aim to preserve the original *balance, contrast discipline, semanti
 
 ## 🎨 Theme Names in Zed
 
-Supported variants (light and dark mixed as in upstream collection):
-`Tempus Fugit`, `Tempus Dusk`, `Tempus Autumn`, `Tempus Classic`, `Tempus Dawn`, `Tempus Day`, `Tempus Future`, `Tempus Night`, `Tempus Past`, `Tempus Rift`, `Tempus Spring`, `Tempus Summer`, `Tempus Tempest`, `Tempus Totus`, `Tempus Warp`, `Tempus Winter`
+Supported variants currently bundled in this Zed port:
+`Tempus Fugit`, `Tempus Dusk`, `Tempus Autumn`, `Tempus Classic`, `Tempus Dawn`, `Tempus Day`, `Tempus Future`, `Tempus Night`, `Tempus Past`, `Tempus Rift`
 
 ---
 
@@ -43,10 +43,11 @@ Supported variants (light and dark mixed as in upstream collection):
 ### Development Install (Local)
 
 1. Clone the repository:
-   git clone https://github.com/emirror-de/tempus-themes-zed.git
+   `git clone https://github.com/emirror-de/tempus-themes-zed.git`
 2. Open Zed.
-3. Command Palette → “Extensions: Install Dev Extension”.
-4. Select the cloned directory.
+3. Open the command palette.
+4. Run `Extensions: Install Dev Extension`.
+5. Select the cloned `tempus-themes-zed` directory.
 
 ### Activation
 
